@@ -27,7 +27,7 @@ setInterval(function() {
   update();
 }, 1000);
 
-/*
+
 // nur zum Zahlen darstellen ohne FlipClock
 function formatMoney(amount) {
   var dollars = Math.floor(amount).toString().split('');
@@ -46,4 +46,4 @@ function formatMoney(amount) {
   return str + ',' + cents + " " + '€';
 
 }
-*/
+
