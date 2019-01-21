@@ -1,4 +1,4 @@
-//var amount = document.getElementById('amount');
+var amount = document.getElementById('amount');
 var current;
 
 let eink = 130000; // Ausgangsgehalt
@@ -16,7 +16,7 @@ let verd = cent * sekJahr; // verdient bis jetzt = sekunden dieses Jahr mal cent
 var current = verd;
 
 function update() {
-  //amount.innerText = formatMoney(current);
+  amount.innerText = formatMoney(current);
   var numb = current;
   numb = numb.toFixed(3); // runden auf 3 Kommastellen
   clock.setValue(numb);
