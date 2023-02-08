@@ -1,8 +1,8 @@
 //var amount = document.getElementById('amount');
 var current;
 
-let eink = 130000; // Ausgangsgehalt
-let seck = 31535999; // vom Internet2019 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr
+let eink = 140000; // Ausgangsgehalt
+let seck = 31535999; // vom Internet2019 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr 
 let cent = eink / seck; // Einkommen pro Sekunde
 
 var dateObj = new Date();
