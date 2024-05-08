@@ -2,7 +2,8 @@
 var current;
 
 let eink = 140000; // Ausgangsgehalt
-let seck = 31535999; // vom Internet2019 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr 
+let seck = 31622400; // vom Internet2019:31535999 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr - 2024 (Schaltjahr): 31622400
+
 let cent = eink / seck; // Einkommen pro Sekunde
 
 var dateObj = new Date();
