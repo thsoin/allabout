@@ -1,8 +1,8 @@
 //var amount = document.getElementById('amount');
 var current;
 
-let eink = 140000; // Ausgangsgehalt
-let seck = 31622400; // vom Internet2019:31535999 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr - 2024 (Schaltjahr): 31622400
+let eink = 144882; // Ausgangsgehalt Workday 
+let seck = 3153600; // vom Internet2019: 31535999 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr - 2025 (kein Schaltjahr): 31.536.000
 
 let cent = eink / seck; // Einkommen pro Sekunde
 
