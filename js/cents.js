@@ -1,7 +1,7 @@
 //var amount = document.getElementById('amount');
 var current;
 
-let eink = 144882; // Ausgangsgehalt Workday 
+let eink = 146706; // Ausgangsgehalt Workday 
 let seck = 31536000; // vom Internet2019: 31535999 - nicht ganz genau ist 365*24*60*60 Sekunden pro Jahr - 2025 (kein Schaltjahr): 31.536.000
 
 let cent = eink / seck; // Einkommen pro Sekunde
@@ -48,3 +48,4 @@ function formatMoney(amount) {
 
 }
 */
+
